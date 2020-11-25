@@ -8,9 +8,10 @@
     background-image: url("kwall.svg");
     background-size: cover;
     background-position: top;
+    /*width: 100%;*/
 
     position: relative;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .btn{
@@ -28,9 +29,7 @@
     cursor: pointer;
 }
 
-.navigation{
-    margin-top: 30px;
-}
+
 .text{
     display: block;
 }

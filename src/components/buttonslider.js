@@ -38,8 +38,8 @@ export const Menu = (list, selected) =>
 
 
 
-const ArrowLeft = <img src={leftarrow} style={{position:'absolute',top:'100px',left:100}} alt=""/>
-const ArrowRight = <img src={rightarrow} style={{position:'absolute',top:'100px',left:250}} alt=""/>
+const ArrowLeft = <img src={leftarrow} className={'arrow'} style={{position:'absolute',top:'100px',left:100}} alt=""/>
+const ArrowRight = <img src={rightarrow} className={'arrow'} style={{position:'absolute',top:'100px',left:250}} alt=""/>
 
 const selected = 'item1';
 
@@ -72,7 +72,7 @@ class ButtonSlider extends Component {
                     arrowRight={ArrowRight}
                     selected={selected}
                     onSelect={this.onSelect}
-                    arrowClass={'arrow'}
+
                     wrapperClass={'wraper'}
                 />
             </div>

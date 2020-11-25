@@ -3,9 +3,12 @@ import './second.css'
 import Grid from '@material-ui/core/Grid';
 import fifty from '../assets/fifty.svg'
 import learn from '../assets/learn.svg'
+import {useMediaQuery} from "react-responsive";
+
 import anuradha from '../assets/anuradha.svg'
 import ButtonSlider from "./buttonslider";
 const SecondPage=()=>{
+    const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
     return(
         <div className={'second'}>
             <Grid container justify={"center"} lg={10} justify={"space-around"}>
@@ -18,11 +21,12 @@ const SecondPage=()=>{
                     <p style={{color:'black',textAlign:'right'}}>~NCERT</p>
                 </Grid>
                 <Grid item  lg={10} style={{position:'absolute',top:'28%',left:'5%'}}>
-                    <img src={learn}  alt=""/>
+                    {isPortrait?<img src={learn} height={50}   alt=""/>:<img src={learn}   alt=""/>}
                 </Grid>
                 <Grid item container style={{position:'absolute',top:'60%',color:'black'}} lg={10}>
                     <Grid item  lg={7} >
-                        <img src={anuradha} height={400}  alt=""/>
+                        {isPortrait?<img src={anuradha} height={200}   alt=""/>:<img src={anuradha}   alt=""/>}
+                        {/*<img src={anuradha} height={400}  alt=""/>*/}
                     </Grid>
                     <Grid item  lg={5}
 
