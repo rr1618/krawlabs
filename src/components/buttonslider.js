@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ScrollMenu from "react-horizontal-scrolling-menu";
 import './buttonslider.css';
 import leftarrow from '../assets/leftarrow.svg'
+import {useMediaQuery} from "react-responsive";
 import rightarrow from '../assets/rightarrow.svg'
 import comma from '../assets/comma.svg'
 // list of items
@@ -38,8 +39,8 @@ export const Menu = (list, selected) =>
 
 
 
-const ArrowLeft = <img src={leftarrow} className={'arrow'} style={{left:100}} alt=""/>
-const ArrowRight = <img src={rightarrow} className={'arrow'} style={{left:250}} alt=""/>
+const ArrowLeft = <img src={leftarrow} className={'arrow larrow'}  alt=""/>
+const ArrowRight = <img src={rightarrow} className={'arrow rarrow'}  alt=""/>
 
 const selected = 'item1';
 
@@ -60,6 +61,7 @@ class ButtonSlider extends Component {
 
 
     render() {
+
         const { selected } = this.state;
         // Create menu from items
         const menu = this.menuItems;

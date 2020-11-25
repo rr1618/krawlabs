@@ -13,7 +13,8 @@ const SecondPage=()=>{
         <div className={'second'}>
             <Grid container justify={"center"} lg={10} justify={"space-around"}>
                 <Grid item lg={4}>
-                    <img src={fifty} height={150} alt=""/>
+
+                    {isPortrait?<img src={fifty} height={100}   alt=""/>:<img src={fifty} height={170}   alt=""/>}
                 </Grid>
                 <Grid item lg={4}>
                     <p style={{color:'black',fontSize:22,marginTop:10}}>Increase in marks & conceptualization
@@ -28,7 +29,7 @@ const SecondPage=()=>{
                         {isPortrait?<img src={anuradha} height={200}   alt=""/>:<img src={anuradha} height={450}   alt=""/>}
 
                     </Grid>
-                    <Grid item  lg={5} style={{marginTop:60}}>
+                    <Grid item  lg={5} style={{marginTop:60,padding:10}}>
                         <div>
                             <h1>Anuradha Mathur</h1>
                             <span>HOD-Kalam Labs</span>

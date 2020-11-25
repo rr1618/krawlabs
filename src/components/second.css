@@ -14,9 +14,9 @@
 
 @media only screen and (max-width: 600px) {
     .second{
-        height: 150vh;
+        height: 200vh;
         background-image: url("k2wall.svg");
-        background-size: contain;
+        background-size: cover;
         background-position: top;
         background-repeat: no-repeat;
 

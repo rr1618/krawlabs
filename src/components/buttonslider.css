@@ -35,6 +35,12 @@
     position: absolute;
     top: 100px;
 }
+.larrow{
+    left: 100px;
+}
+.rarrow{
+    left: 250px;
+}
 .arrow:hover{
     transform: translateY(2px);
 }
@@ -52,4 +58,22 @@
     margin-top: 60px;
     cursor: pointer;
 
+}
+
+@media only screen and (max-width: 600px) {
+    .wraper{
+        position: relative;
+        top:170px;
+        height: 60vh;
+    }
+    .arrow{
+        height: 80px;
+        top:50px
+    }
+    .larrow{
+        left: 10px;
+    }
+    .rarrow{
+        left: 100px;
+    }
 }

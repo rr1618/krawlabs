@@ -10,8 +10,10 @@
 .night {
     position: absolute;
     top:-50vh;
-    width: 100%;
+    left: 50%;
+
     height: 100%;
+
     transform: rotateZ(45deg);
 
 }
@@ -19,6 +21,7 @@
     position: absolute;
     left: 50%;
     top: 50%;
+
     height: 2px;
     background: linear-gradient(-45deg, rgba(95, 145, 255, 1), rgba(0, 0, 255, 0));
     border-radius: 999px;
@@ -235,6 +238,57 @@
     }
     100% {
         transform: rotate(405deg);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    @keyframes tail {
+        0% {
+            width: 0;
+        }
+        30% {
+            width: 50px;
+        }
+        100% {
+            width: 0;
+        }
+    }
+    @keyframes shining {
+        0% {
+            width: 0;
+        }
+        50% {
+            width: 20px;
+        }
+        100% {
+            width: 0;
+        }
+    }
+    @keyframes shooting {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(00px);
+        }
+    }
+    @keyframes sky {
+        0% {
+            transform: rotate(45deg);
+        }
+        100% {
+            transform: rotate(405deg);
+        }
+    }
+    .night {
+        position: absolute;
+        top:-50vh;
+        left: 10%;
+
+        height: 100%;
+
+        transform: rotateZ(45deg);
+
     }
 }
 
