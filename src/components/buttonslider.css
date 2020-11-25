@@ -1,0 +1,47 @@
+.menu-item {
+    padding: 0 40px;
+    margin: 5px 10px;
+    user-select: none;
+    cursor: pointer;
+    border: none;
+}
+.menu-item-wrapper.active {
+    border: 1px blue solid;
+}
+.menu-item.active {
+    border: 1px green solid;
+}
+
+.scroll-menu-arrow {
+    padding: 20px;
+    cursor: pointer;
+}
+.button-slider{
+    position: relative;
+    /*bottom: 0;*/
+    /*width: 100vw;*/
+    color: black;
+
+
+
+}
+.wraper{
+    position: relative;
+    top:300px;
+    height: 60vh;
+}
+.arrow{
+ cursor: pointer;
+}
+
+.button-card{
+    height: 300px;
+    width: 600px;
+    border-radius: 10%;
+    background-color: #5DD9FF;
+    margin: 10px;
+    position: relative;
+    margin-top: 60px;
+    cursor: pointer;
+
+}

@@ -4,6 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import fifty from '../assets/fifty.svg'
 import learn from '../assets/learn.svg'
 import anuradha from '../assets/anuradha.svg'
+import ButtonSlider from "./buttonslider";
 const SecondPage=()=>{
     return(
         <div className={'second'}>
@@ -43,6 +44,9 @@ const SecondPage=()=>{
 
 
             </Grid>
+            {/*<div style={{position:'absolute',bottom:0}}>*/}
+
+            {/*</div>*/}
 
         </div>
     )

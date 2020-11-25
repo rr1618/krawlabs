@@ -3,7 +3,8 @@
     background-image: url("k2wall.svg");
     background-size: cover;
     background-position: top;
-    width: 100vw;
+    /*width: 100vw;*/
     padding-top: 40px;
+    overflow: hidden;
     position: relative;
 }
