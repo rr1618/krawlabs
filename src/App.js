@@ -4,6 +4,7 @@ import SecondPage from "./components/page2";
 import Home from "./components/home";
 import ButtonSlider from "./components/buttonslider";
 import React from "react";
+import Stars from "./components/stars";
 function App() {
   return (
     <div>

@@ -7,10 +7,11 @@ import Button from '@material-ui/core/Button';
 import CardSlider from "./cardslider";
 import './home.css'
 import downarrow from '../assets/downarrow.png'
-
+import Stars from "./stars";
 const Home=()=>{
     return(
         <div className={'header'}>
+            <Stars/>
             <Grid container  justify={"space-around"} >
                 <Grid item container   style={{marginTop:30}} lg={10}>
                     <Grid item lg={6}>
