@@ -1,0 +1,8 @@
+.second{
+    height: 300vh;
+    background-image: url("k2wall.svg");
+    background-size: cover;
+    background-position: top;
+    width: 100vw;
+    padding-top: 40px;
+}
