@@ -75,6 +75,7 @@ class ButtonSlider extends Component {
                     selected={selected}
                     onSelect={this.onSelect}
 
+
                     wrapperClass={'wraper'}
                 />
             </div>

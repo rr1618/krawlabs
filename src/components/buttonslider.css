@@ -6,10 +6,12 @@
     border: none;
 }
 .menu-item-wrapper.active {
-    border: 1px blue solid;
+    border: none;
+    outline: none;
 }
 .menu-item.active {
-    border: 1px green solid;
+    border: none;
+    outline: none;
 }
 
 .scroll-menu-arrow {
@@ -25,6 +27,7 @@
 
 
 }
+
 .wraper{
     position: relative;
     top:300px;
