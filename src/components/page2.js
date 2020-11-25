@@ -23,16 +23,14 @@ const SecondPage=()=>{
                 <Grid item  lg={10} style={{position:'absolute',top:'28%',left:'5%'}}>
                     {isPortrait?<img src={learn} height={50}   alt=""/>:<img src={learn}   alt=""/>}
                 </Grid>
-                <Grid item container style={{position:'absolute',top:'60%',color:'black'}} lg={10}>
+                <Grid item container style={{position:'absolute',top:'48%',color:'black'}} lg={10}>
                     <Grid item  lg={7} >
-                        {isPortrait?<img src={anuradha} height={200}   alt=""/>:<img src={anuradha} height={400}   alt=""/>}
-                        {/*<img src={anuradha} height={400}  alt=""/>*/}
-                    </Grid>
-                    <Grid item  lg={5}
+                        {isPortrait?<img src={anuradha} height={200}   alt=""/>:<img src={anuradha} height={450}   alt=""/>}
 
-                    >
+                    </Grid>
+                    <Grid item  lg={5} style={{marginTop:60}}>
                         <div>
-                            <h3>Anuradha Mathur</h3>
+                            <h1>Anuradha Mathur</h1>
                             <span>HOD-Kalam Labs</span>
                             <p>Mrs Anuradha Madhur is one of the most celebrated Physisicts in India.
                                 Core authors for Physics NCERT Textbooks of Class 11th and 12th.
