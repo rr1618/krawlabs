@@ -25,7 +25,7 @@ const SecondPage=()=>{
                 </Grid>
                 <Grid item container style={{position:'absolute',top:'60%',color:'black'}} lg={10}>
                     <Grid item  lg={7} >
-                        {isPortrait?<img src={anuradha} height={200}   alt=""/>:<img src={anuradha}   alt=""/>}
+                        {isPortrait?<img src={anuradha} height={200}   alt=""/>:<img src={anuradha} height={400}   alt=""/>}
                         {/*<img src={anuradha} height={400}  alt=""/>*/}
                     </Grid>
                     <Grid item  lg={5}

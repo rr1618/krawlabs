@@ -6,11 +6,12 @@
 .header{
     height: 200vh;
     background-image: url("kwall.svg");
+    /*background-color: red;*/
     background-size: cover;
     background-position: top;
-    /*width: 100%;*/
-
     position: relative;
+
+
     /*overflow: hidden;*/
 }
 
@@ -32,4 +33,14 @@
 
 .text{
     display: block;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+ .header{
+     padding: 10px;
+     height: 150vh;
+ }
 }

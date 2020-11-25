@@ -1,11 +1,28 @@
 .second{
     height: 300vh;
     background-image: url("k2wall.svg");
-    background-size: cover;
+    background-size: contain;
     background-position: top;
+    background-repeat: no-repeat;
 
     padding-top: 40px;
-
+    padding: 10px;
     overflow: hidden;
     position: relative;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .second{
+        height: 150vh;
+        background-image: url("k2wall.svg");
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+
+        padding-top: 40px;
+        padding: 10px;
+        overflow: hidden;
+        position: relative;
+    }
 }

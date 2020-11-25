@@ -12,7 +12,7 @@ const Home=()=>{
     return(
         <div className={'header'}>
             <Grid container  justify={"space-around"} >
-                <Grid item container  lg={12}  style={{marginTop:30}} lg={10}>
+                <Grid item container   style={{marginTop:30}} lg={10}>
                     <Grid item lg={6}>
                         <h2>Kalam Labs</h2>
                     </Grid>
@@ -20,7 +20,7 @@ const Home=()=>{
                         <Link className={'btn btn-link'}>Home</Link>
                         <Link className={'btn btn-link'}>Home</Link>
                         <Link className={'btn btn-link'}>Home</Link>
-                        <Link className={'btn btn-link'}>Home</Link>
+
                     </Grid>
                 </Grid>
                 <Grid container justify={"space-around"}>

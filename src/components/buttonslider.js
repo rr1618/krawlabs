@@ -38,8 +38,8 @@ export const Menu = (list, selected) =>
 
 
 
-const ArrowLeft = <img src={leftarrow} className={'arrow'} style={{position:'absolute',top:'100px',left:100}} alt=""/>
-const ArrowRight = <img src={rightarrow} className={'arrow'} style={{position:'absolute',top:'100px',left:250}} alt=""/>
+const ArrowLeft = <img src={leftarrow} className={'arrow'} style={{left:100}} alt=""/>
+const ArrowRight = <img src={rightarrow} className={'arrow'} style={{left:250}} alt=""/>
 
 const selected = 'item1';
 
